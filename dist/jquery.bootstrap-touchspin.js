@@ -606,6 +606,7 @@
 
         if (initvalue !== value) {
           originalinput.trigger('change');
+          _checkValue();
         }
       }
 
@@ -632,6 +633,7 @@
 
         if (initvalue !== value) {
           originalinput.trigger('change');
+          _checkValue();
         }
       }
 
